@@ -1,7 +1,5 @@
-main: main.o genMino.o Mino.o MinoI.o MinoS.o MinoL.o MinoO.o MinoT.o
-	g++ -o main main.o genMino.o Mino.o MinoI.o MinoS.o MinoL.o MinoO.o MinoT.o
-genMino.o: genMino.cpp genMino.h Mino.h MinoS.h MinoI.h MinoL.h MinoO.h MinoT.h
-	g++ -c genMino.cpp
+main: main.o  Mino.o MinoI.o MinoS.o MinoL.o MinoO.o MinoT.o
+	g++ -o main main.o Mino.o MinoI.o MinoS.o MinoL.o MinoO.o MinoT.o
 main.o: main.cpp genMino.h
 	g++ -c main.cpp
 Mino.o: Mino.cpp

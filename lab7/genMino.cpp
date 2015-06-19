@@ -9,38 +9,38 @@
 #define MINO_T 3
 #define MINO_O 4
 using namespace std;
-//Mino *ptr;
 
-void NewHandler()
+void NewHandlerIn_gen()
 {
-  cerr<<"memory is insufficient\n";
+  cerr<<"memory is insufficient.\n";
   abort();
 }
 
 Mino *genMino()
 {
-	set_new_handler(NewHandler);
+	set_new_handler(NewHandlerIn_gen);
 	int mino_type;
 	Mino *ptr;
 
 	mino_type = random()% NUM_MINO;
 
-	switch(mino_type){
+/*	switch(mino_type){
 	  case MINO_S:
-	    ptr = new MinoS;
+	    ptr = new MinoS[500000];
 	    break;
 	  case MINO_I:
-	    ptr = new MinoI;
+	    ptr = new MinoI[500000];
 	    break;
 	  case MINO_L:
-	    ptr = new MinoL;
+	    ptr = new MinoL[500000];
 	    break;
 	  case MINO_T:
-	    ptr = new MinoT;
+	    ptr = new MinoT[500000];
 	    break;
 	  case MINO_O:
-	    ptr = new MinoO;
+	    ptr = new MinoO[500000];
 	    break;
-	}
+	}*/	
+	
 	return ptr;
 }
