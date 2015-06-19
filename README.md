@@ -14,3 +14,65 @@ throw exception 有被 catch 抓到，執行完catch跳出來，繼續往下執�
 compile : make
 
 running script :
+
+0010
+
+0010
+
+0010
+
+0010
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+memory is insufficient.
+
+^CSegmentation fault (core dumped)
